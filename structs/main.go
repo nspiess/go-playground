@@ -29,7 +29,7 @@ func main() {
 	p.print()
 }
 
-func (p person) print() {
+func (p *person) print() {
 	fmt.Printf("%+v\n", p)
 }
 
